@@ -8,3 +8,14 @@ $$w_k = v_k - \sum_{i=1}^{k-1} {\langle v_k, w_i \rangle \over \langle w_i, w_i 
 
 **Warning : due to rounding errors, the resulting vectors may not be truly orthogonal.**
 
+How to run this script?
+
+0. Make sure Python is installed on your computer
+1. `git clone` or download ZIP with this repository
+2. In the directory containing `gram.py` create a virtual environment and activate it
+   - `python3 -m venv <MYVENV>`
+   - `source MYENV/bin/activate`
+3. Install numpy - `pip install numpy`
+4. Run the script - `python gram.py`
+
+
