@@ -4,7 +4,7 @@ and transforms it into a set of orthogonal vectors $(u_1, u_2, ... , u_k)$. The 
 
 $$u_1 = v_1$$
 
-$$w_k = v_k - \sum_{i=1}^{k-1} {\langle v_k, w_i \rangle \over \langle w_i, w_i \rangle} \cdot w_i $$
+$$u_k = v_k - \sum_{i=1}^{k-1} {\langle v_k, u_i \rangle \over \langle u_i, u_i \rangle} \cdot u_i $$
 
 **Warning : due to rounding errors, the resulting vectors may not be truly orthogonal.**
 
